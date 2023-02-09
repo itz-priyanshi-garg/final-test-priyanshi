@@ -10,7 +10,7 @@ phases:
 
   post_build:
     commands:
-      - echo Build completed successfull.
+      - echo Build completed Successfull.
 artifacts:
   files:
     - target/arya.jar
