@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build started
       - mvn clean install
-#      - aws s3 rm s3://garg-123-arya/src --recursive
+      - aws s3 rm s3://test-123-arya/src --recursive
 #      - aws s3 rm s3://final-test-priyanshi/order-service.jar
 
   post_build:
