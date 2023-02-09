@@ -5,12 +5,12 @@ phases:
     commands:
       - echo Build started
       - mvn clean install
-#      - aws s3 rm s3://final-test-priyanshi/src --recursive
+      - aws s3 rm s3://final-test-priyanshi/src --recursive
 
   post_build:
     commands:
       - echo Build completed Successfully.
 artifacts:
   files:
-    - target/order-service.jar
+    - target/arya.jar
   discard-paths: yes

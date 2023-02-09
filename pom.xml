@@ -37,7 +37,7 @@
 			</plugin>
 		</plugins>
 
-		<finalName>order-service</finalName>
+		<finalName>arya</finalName>
 
 	</build>
 
